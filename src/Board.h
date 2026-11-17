@@ -15,6 +15,7 @@ class Board {
     public:
         // Funkcja rysująca planszę
         void draw();
+        Board();
 };
 
 #endif
