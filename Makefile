@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -Wall -Wextra
 LDFLAGS = -lncurses
 
-SRC = src/main.cpp src/Board.cpp
+SRC = src/main.cpp src/Board.cpp src/Tetromino.cpp
 OUT = tetris
 
 all:
