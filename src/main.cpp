@@ -6,6 +6,7 @@ int main() {
 
     Board board;
     board.draw();
+    refresh();
 
     getch();
     endwin();
