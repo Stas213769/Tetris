@@ -8,8 +8,9 @@ class Tetromino {
         // Wymiary tetromino
         const int size = 4;
 
-        int x, y; // Pozycja tetromino na planszy
-
+        int x;
+        int y; // Pozycja tetromino na planszy
+        
         // Tutaj zadeklaruj dwuwymiarowy vector
         std::vector<std::vector<char>> shape;
     
