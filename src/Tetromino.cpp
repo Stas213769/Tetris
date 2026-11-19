@@ -1,7 +1,7 @@
 #include "Tetromino.h"
 #include <ncurses.h>
 
-Tetromino::Tetromino() : x(0), y(0) {
+Tetromino::Tetromino() : x(3), y(0) {
     // Inicjalizacja kształtu tetromino (przykładowy kształt)
     shape.resize(size, std::vector<char>(size, ' '));
     shape[1][1] = '#';
